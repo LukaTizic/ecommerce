@@ -42,6 +42,7 @@ export default async function CreateAccount() {
           </div>
 
           <p>Please enter details below</p>
+          <CreateAccountForm />
         </div>
       </div>
     </section>
