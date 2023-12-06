@@ -31,6 +31,19 @@ export default async function CreateAccount() {
           />
         </Link>
       </div>
+
+      <div className={classes.formWrapper}>
+        <div className={classes.formContainer}>
+          <RenderParams className={classes.params} />
+
+          <div className={classes.formTitle}>
+            <h3>Create Account</h3>
+            <Image src="/assets/icons/hand.png" width={30} height={30} alt="hand" />
+          </div>
+
+          <p>Please enter details below</p>
+        </div>
+      </div>
     </section>
   )
 }
