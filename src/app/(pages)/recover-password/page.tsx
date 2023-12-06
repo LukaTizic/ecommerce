@@ -8,6 +8,7 @@ import { RecoverPasswordForm } from './RecoverPasswordForm'
 import classes from './index.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
+import { RenderParams } from '../../_components/RenderParams'
 
 export default async function RecoverPassword() {
   return (
@@ -16,6 +17,22 @@ export default async function RecoverPassword() {
         <Link href="/">
           <Image src="/logo-black.svg" alt="logo" width={250} height={23} />
         </Link>
+      </div>
+
+      <div className={classes.formWrapper}>
+        <div className={classes.formContainer}>
+          <RenderParams className={classes.params} />
+
+          <Link href="/login" className={classes.backLink}>
+            <Image src="/assets/icons/arrow-left.svg" alt="arrow" width={24} height={24} />
+            <p>Back</p>
+          </Link>
+
+          <div className={classes.formTitle}>
+            <h3>Forgot Password</h3>
+          </div>
+          <RecoverPasswordForm />
+        </div>
       </div>
     </section>
   )
