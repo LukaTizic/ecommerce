@@ -24,7 +24,7 @@ export default async function RecoverPassword() {
           <RenderParams className={classes.params} />
 
           <Link href="/login" className={classes.backLink}>
-            <Image src="/assets/icons/arrow-left.svg" alt="arrow" width={24} height={24} />
+            <Image src="/assets/icons/arrow-left.svg" alt="left arrow" width={24} height={24} />
             <p>Back</p>
           </Link>
 
