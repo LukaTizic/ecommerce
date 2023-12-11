@@ -2,7 +2,7 @@
 
 .card {
   position: relative;
-  background-color: var(--color-dark-50);
+  background-color: white;
   min-height: 300px;
   width: 100%;
   display: flex;
@@ -17,6 +17,9 @@
   background-position: center;
   background-repeat: no-repeat;
   
+  border-radius: 10px;
+  border: 2px solid var(--color-dark-50);
+  box-shadow: 0 4px 8px 0 rgba(163, 163, 163, 0.2), 0 6px 20px 0 rgba(140, 140, 140, 0.19);
 
   
 }
