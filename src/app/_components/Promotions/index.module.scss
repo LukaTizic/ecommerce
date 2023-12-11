@@ -19,8 +19,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  
+  
+
+.link{
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    padding-bottom: 30px;
+    
+   
 }
+
+}
+
+
 
 .image {
   min-height: 500px;
@@ -45,6 +58,7 @@
   @include large-break {
     grid-template-columns: repeat(2, 1fr);
   }
+  
 }
 
 .statBox {
@@ -59,4 +73,6 @@
   h4 {
     font-weight: bold;
   }
+  
+
 }

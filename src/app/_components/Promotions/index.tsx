@@ -41,9 +41,14 @@ const Promotion = () => {
       <div className={classes.textBox}>
         <h3 className={classes.title}>Deals of the Month</h3>
         <p>
-          Get ready for a shopping experience like never before with our Deals of the Month! Every
-          purchase comes with exclusive perks and offers, making this month a celebration of savvy
-          choices and amazing deals. Don't miss out! 🎁🛒
+          🌟 Don't miss out on our monthly tech extravaganza! Unveiling the hottest deals on
+          cutting-edge gadgets, gizmos, and gear. From sleek smartphones to powerful laptops,
+          elevate your tech game without breaking the bank! 🛒💻📱
+        </p>
+        <p>
+          <a className={classes.link} href="https://github.com/LukaTizic">
+            See More
+          </a>
         </p>
 
         <ul className={classes.stats}>
