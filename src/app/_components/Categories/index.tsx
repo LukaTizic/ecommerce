@@ -11,7 +11,10 @@ const Categories = ({ categories }: { categories: Category[] }) => {
     <section className={classes.container}>
       <div className={classes.titleWrapper}>
         <h3>Choose a Category</h3>
-        <Link href="/products">See All </Link>
+
+        <Link className={classes.seeAll} href="/products">
+          See All{' '}
+        </Link>
       </div>
       <div className={classes.list}>
         {categories.map(category => {
