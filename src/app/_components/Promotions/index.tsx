@@ -5,14 +5,14 @@ import classes from './index.module.scss'
 
 const Promotion = () => {
   const [time, setTime] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: 2,
+    hours: 32,
+    minutes: 22,
+    seconds: 11,
   })
 
   const targetDate = new Date()
-  targetDate.setDate(targetDate.getDate() + 3)
+  targetDate.setDate(targetDate.getDate() + 7)
 
   useEffect(() => {
     const timerInterval = setInterval(() => {
