@@ -163,11 +163,7 @@ export const CollectionArchive: React.FC<Props> = props => {
 
         <div className={classes.grid}>
           {results.docs?.map((result, index) => {
-            return (
-              <div key={index} className={classes.column}>
-                <Card relationTo="products" doc={result} showCategories />
-              </div>
-            )
+            return <Card relationTo="products" doc={result} showCategories />
           })}
         </div>
         {results.totalPages > 1 && (
