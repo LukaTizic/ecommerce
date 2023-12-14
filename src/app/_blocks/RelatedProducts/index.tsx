@@ -30,6 +30,7 @@ export const RelatedProducts: React.FC<RelatedProductsProps> = props => {
             return <Card key={doc.id} relationTo={relationTo} doc={doc} showCategories />
           })}
         </div>
+        <HR />
       </Gutter>
     </div>
   )
