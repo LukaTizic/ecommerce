@@ -1,7 +1,7 @@
 @import '../../_css/type.scss';
 
 .button {
-  border: none;
+  border: 2px solid rgb(255, 255, 255);
   cursor: pointer;
   display: inline-flex;
   justify-content: center;
@@ -13,6 +13,8 @@
   line-height: inherit;
   font-size: inherit;
   border-radius: 10px;
+  font-weight: 700;
+  
 }
 
 .content {
@@ -35,12 +37,21 @@
 }
 
 .appearance--primary {
-  background-color: var(--theme-elevation-1000);
-  color: var(--theme-elevation-0);
+  background-color: #0051ff ;
+  color: white;
+}
+
+.appearance--primary:hover{
+    background-color: white;
+    color: #0051ff ;
+    border: 2px solid #0051ff ;
+
 }
 
 .appearance--secondary {
-  background-color: transparent;
+  background-color: white;
+  color: #0051ff ;
+  border: 1px solid #0051ff ;
   box-shadow: inset 0 0 0 1px var(--theme-elevation-1000);
 }
 
