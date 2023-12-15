@@ -5,3 +5,7 @@
   cursor: pointer;
   @extend %label;
 }
+.removeFromCartButton:hover{
+  color:red;
+  text-decoration: underline red;
+}
