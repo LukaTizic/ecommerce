@@ -48,7 +48,7 @@ export const OrderConfirmationPage: React.FC<{}> = () => {
             <Button
               href={`${process.env.NEXT_PUBLIC_SERVER_URL}/account/orders`}
               label="View all orders"
-              appearance="secondary"
+              appearance="primary"
             />
           </div>
         </Fragment>
