@@ -5,6 +5,7 @@
 }
 
 .itemMeta {
+    
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -42,6 +43,7 @@
 }
 
 .mediaWrapper {
+    
   text-decoration: none;
   display: block;
   position: relative;
@@ -76,6 +78,7 @@
 }
 
 .mediaWrapper {
+    
   text-decoration: none;
   display: flex;
   position: relative;
@@ -100,6 +103,3 @@
   text-decoration: none;
 }
 
-.hr {
-  margin: 0;
-}

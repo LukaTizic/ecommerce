@@ -115,7 +115,6 @@ export default async function Order({ params: { id } }) {
           return null
         })}
       </div>
-      <HR className={classes.hr} />
     </div>
   )
 }

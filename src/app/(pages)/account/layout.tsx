@@ -7,11 +7,13 @@ import { profileNavItems } from '../../constants/'
 import { UserInfo } from './UserInfo'
 
 import classes from './index.module.scss'
+import { HR } from '../../_components/HR'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className={classes.container}>
       <Gutter>
+        <HR />
         <h3>My Profile</h3>
         <div className={classes.account}>
           <div className={classes.nav}>
@@ -31,6 +33,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {children}
         </div>
       </Gutter>
+      <HR />
     </div>
   )
 }
