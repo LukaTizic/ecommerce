@@ -1,6 +1,9 @@
 
 This is an `iPhone E-Commerce ⚡️` project with [`Demo-link`](https://ecommerce-lt.payloadcms.app/).
 
+
+![hero image](<public/assets/project screenshots/hero.png>)
+
 ---
 
 ## Getting Started
