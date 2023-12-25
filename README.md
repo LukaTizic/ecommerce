@@ -6,7 +6,7 @@ This is an `iPhone E-Commerce ⚡️` project with [`Demo-link`](https://ecommer
 ![Alt text](<public/assets/project screenshots/categories.png>)
 
 
-![Alt text](<public/assets/project screenshots/categories2.png>)
+![Alt text](<public/assets/project screenshots/allCategories.png>)
 
 ![Alt text](<public/assets/project screenshots/product.png>)
 
