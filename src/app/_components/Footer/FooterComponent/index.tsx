@@ -40,7 +40,13 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
             <Link href="/">
               <Image src="/logo-white.svg" alt="logo" width={170} height={50} />
             </Link>
-            <p>{footer.copyright}</p>
+            <p>
+              @2024 |{' '}
+              <a href="https://github.com/LukaTizic" target="_blank">
+                LT
+              </a>{' '}
+              | All rights reserved
+            </p>
           </div>
           <div className={classes.socialLinks}>
             {navItems.map(item => {

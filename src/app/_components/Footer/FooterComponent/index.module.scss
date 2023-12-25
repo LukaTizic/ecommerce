@@ -11,6 +11,14 @@
   @include small-break {
     padding: calc(var(--base) * 2) 0;
   }
+  a{
+    color:red;
+    font-weight: 700;
+  }
+  a:hover{
+    text-decoration: underline;
+    color:white;
+  }
 }
 
 
