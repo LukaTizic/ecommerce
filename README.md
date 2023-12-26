@@ -1,7 +1,7 @@
 
 This is an `iPhone E-Commerce ⚡️` project with [`Demo-link`](https://ecommerce-lt.payloadcms.app/).
 
-
+ # <h3 align="center">Hero section</h3>
 ![hero image](<public/assets/project screenshots/hero.png>)
 ![Alt text](<public/assets/project screenshots/categories.png>)
 
