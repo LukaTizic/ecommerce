@@ -3,16 +3,16 @@ This is an `iPhone E-Commerce ⚡️` project with [`Demo-link`](https://ecommer
 
  # <h3 align="center">Hero section</h3>
 ![hero image](<public/assets/project screenshots/hero.png>)
-![Alt text](<public/assets/project screenshots/categories.png>)
+![categories](<public/assets/project screenshots/categories.png>)
 
 
-![Alt text](<public/assets/project screenshots/allCategories.png>)
+![allCategories](<public/assets/project screenshots/allCategories.png>)
 
-![Alt text](<public/assets/project screenshots/product.png>)
+![product](<public/assets/project screenshots/product.png>)
 
-![Alt text](<public/assets/project screenshots/stripe.png>)
+![stripe](<public/assets/project screenshots/stripe.png>)
 
-![Alt text](<public/assets/project screenshots/order confirm.png>)
+![order_confirmation](<public/assets/project screenshots/order confirm.png>)
 
 ---
 
