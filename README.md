@@ -1,18 +1,21 @@
 
 This is an `iPhone E-Commerce ⚡️` project with [`Demo-link`](https://ecommerce-lt.payloadcms.app/).
 
-
+ # <h3 align="center">Hero section</h3>
 ![hero image](<public/assets/project screenshots/hero.png>)
-![Alt text](<public/assets/project screenshots/categories.png>)
+![categories](<public/assets/project screenshots/categories.png>)
 
+ # <h3 align="center">Categories</h3>
+![allCategories](<public/assets/project screenshots/allCategories.png>)
 
-![Alt text](<public/assets/project screenshots/allCategories.png>)
+ # <h3 align="center">Product</h3>
+![product](<public/assets/project screenshots/product.png>)
 
-![Alt text](<public/assets/project screenshots/product.png>)
+ # <h3 align="center">Payment via Stripe</h3>
+![stripe](<public/assets/project screenshots/stripe.png>)
 
-![Alt text](<public/assets/project screenshots/stripe.png>)
-
-![Alt text](<public/assets/project screenshots/order confirm.png>)
+ # <h3 align="center">Order confirmation</h3>
+![order_confirmation](<public/assets/project screenshots/order confirm.png>)
 
 ---
 
